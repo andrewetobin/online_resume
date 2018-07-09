@@ -1,0 +1,94 @@
+/*
+605B56 dark grey
+837A75 lightgrey
+ACC18A grey green
+DAFEB7 light green
+F2FBED green white  */
+
+/* Global styles
+--------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+}
+h1, h2 {
+  font-family: Papyrus, fantasy;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 30px;
+  margin-top: 0;
+}
+a {
+  color: #DC143C;
+}
+a:hover {
+  text-decoration: none;
+}
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: auto;
+}
+.col-narrow {
+  width: 30%;
+  float: left;
+  min-height: 175px;
+}
+.col-wide {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  min-width: 175px;
+}
+
+/* Header and Footer
+--------------------------------*/
+header, footer {
+  background: #605B56;
+  color: #FDF5E6;
+}
+/* header */
+.profile-img {
+  border-radius: 50%;
+}
+
+header h1, header h2 {
+  color: white;
+  margin: 0;
+}
+/* footer */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Work Experience
+--------------------------------*/
+
+.work {
+  background: #ACC18A;
+}
+
+/* Education
+--------------------------------*/
+.education {
+  background: #F2FBED;
+}
+/* Hobbies
+--------------------------------*/
+.hobbies {
+  background: #ACC18A;
+}
