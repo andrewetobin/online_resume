@@ -39,7 +39,7 @@ a:hover {
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 60px 50px;
   overflow: auto;
 }
 .col-narrow {
@@ -62,6 +62,9 @@ header, footer {
   color: #FDF5E6;
 }
 /* header */
+header {
+  padding-top: 50px;
+}
 .profile-img {
   border-radius: 50%;
 }
@@ -77,6 +80,23 @@ footer {
 .contact-info a {
   padding: 10px;
   display: inline-block;
+}
+
+/* Navigation
+--------------------------------*/
+nav {
+  text-align: center;
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 /* Work Experience
@@ -98,6 +118,9 @@ h3 ~ p{
 --------------------------------*/
 .education {
   background: #F2FBED;
+}
+p + h3 {
+  margin-top: 30px;
 }
 /* Hobbies
 --------------------------------*/
