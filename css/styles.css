@@ -27,6 +27,9 @@ h2 {
   font-size: 30px;
   margin-top: 0;
 }
+h3 {
+  margin: 0;
+}
 a {
   color: #DC143C;
 }
@@ -49,6 +52,9 @@ a:hover {
   float: left;
   padding-left: 20px;
   min-width: 175px;
+}
+.uppercase {
+  text-transform: uppercase;
 }
 
 /* Header and Footer
@@ -81,7 +87,12 @@ footer {
 .work {
   background: #ACC18A;
 }
-
+h3 ~ p{
+  margin: 0;
+}
+.job-description p:first-of-type {
+  margin-top: 0;
+}
 /* Education
 --------------------------------*/
 .education {
